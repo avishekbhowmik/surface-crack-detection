@@ -13,7 +13,7 @@ A deep learning project for automated binary classification of concrete surface 
 |---|---|
 | Live Web App | [huggingface.co/spaces/Avishek71/cracksense](https://huggingface.co/spaces/Avishek71/cracksense) |
 | Kaggle Notebook | [kaggle.com/code/avishekbhowmik/surface-crack-detection-ss26-pr](https://www.kaggle.com/code/avishekbhowmik/surface-crack-detection-ss26-pr) |
-| Dataset | [Kaggle — Surface Crack Detection (arunrk7)](https://www.kaggle.com/datasets/arunrk7/surface-crack-detection) |
+| Dataset | [Kaggle - Surface Crack Detection (arunrk7)](https://www.kaggle.com/datasets/arunrk7/surface-crack-detection) |
 
 ---
 
@@ -22,8 +22,8 @@ A deep learning project for automated binary classification of concrete surface 
 This project applies CNN-based image classification to detect surface cracks in concrete structures automatically.
 Two models are implemented and compared:
 
-- **Custom CNN** — designed from scratch as a regularised baseline
-- **MobileNetV2** — transfer learning from ImageNet weights in feature extraction mode
+- **Custom CNN** - designed from scratch as a regularised baseline
+- **MobileNetV2** - transfer learning from ImageNet weights in feature extraction mode
 
 Explainability is incorporated through **Grad-CAM** and **SHAP** to verify that predictions are based on actual crack regions rather than irrelevant background areas.
 
@@ -34,19 +34,19 @@ Explainability is incorporated through **Grad-CAM** and **SHAP** to verify that 
 | Input Size | 96 × 96 × 3 (RGB) |
 | Framework | TensorFlow 2.19 / Keras |
 | Environment | Kaggle Notebook (GPU: Tesla P100) |
-| Accuracy Target | Below 90% — regularised to avoid overfitting |
+| Accuracy Target | Below 90% - regularised to avoid overfitting |
 
 ---
 
 ## Dataset
 
-**Surface Crack Detection** — published by arunrk7 on Kaggle
+**Surface Crack Detection** - published by arunrk7 on Kaggle
 
 | Attribute | Details |
 |---|---|
 | Total Images | 40,000 |
 | Classes | 2 (Positive, Negative) |
-| Images per Class | 20,000 each — perfectly balanced |
+| Images per Class | 20,000 each - perfectly balanced |
 | Native Resolution | 227 × 227 pixels |
 | Resized To | 96 × 96 pixels |
 | Image Type | RGB JPEG |
@@ -58,7 +58,7 @@ Explainability is incorporated through **Grad-CAM** and **SHAP** to verify that 
 
 ## Models
 
-### Model 1 — Custom CNN (Baseline)
+### Model 1 - Custom CNN (Baseline)
 
 ```
 Input (96×96×3)
@@ -73,7 +73,7 @@ Input (96×96×3)
 - Trainable parameters: ~93,377
 - Regularisation: L2 λ = 0.01 + Dropout 0.5
 
-### Model 2 — MobileNetV2 (Transfer Learning)
+### Model 2 - MobileNetV2 (Transfer Learning)
 
 ```
 MobileNetV2 base (frozen, ImageNet weights)
@@ -133,7 +133,7 @@ surface-crack-detection/
 
 ## How to Run
 
-### Option 1 — Kaggle (Recommended)
+### Option 1 - Kaggle (Recommended)
 
 1. Go to [Kaggle](https://www.kaggle.com) and open the notebook linked above
 2. The Surface Crack Detection dataset is already attached
@@ -165,7 +165,7 @@ Download the dataset from [Kaggle](https://www.kaggle.com/datasets/arunrk7/surfa
 | Matplotlib | ≥ 3.7 | Plotting and figure export |
 | Seaborn | ≥ 0.12 | Confusion matrix heatmaps |
 | scikit-learn | ≥ 1.3 | Metrics: F1, ROC-AUC, confusion matrix |
-| SHAP | ≥ 0.43 | Explainability — GradientExplainer |
+| SHAP | ≥ 0.43 | Explainability - GradientExplainer |
 | Gradio | 5.33.0 | Web application interface |
 
 ---
