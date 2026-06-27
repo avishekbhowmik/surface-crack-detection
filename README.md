@@ -242,7 +242,7 @@ pip install tensorflow numpy pandas matplotlib seaborn scikit-learn shap
 
 ---
 
-## 🌐 Phase 3 — Web Application
+## 🌐 Phase 3 - Web Application
 
 A publicly accessible web application is planned for Phase 3, hosted on **Hugging Face Spaces**.
 
@@ -255,7 +255,7 @@ A publicly accessible web application is planned for Phase 3, hosted on **Huggin
 
 **Stack:** Flask backend + HTML/CSS/JS frontend  
 **Hosting:** Hugging Face Spaces (free tier)  
-**Demo:** *(link will be added after Phase 3 deployment)*
+**Demo:** (https://huggingface.co/spaces/Avishek71/cracksense)*
 
 ---
 
@@ -263,9 +263,9 @@ A publicly accessible web application is planned for Phase 3, hosted on **Huggin
 
 | Resource | Link |
 |---|---|
-| Dataset | [Kaggle — Surface Crack Detection](https://www.kaggle.com/datasets/arunrk7/surface-crack-detection) |
+| Dataset | [Kaggle - Surface Crack Detection](https://www.kaggle.com/datasets/arunrk7/surface-crack-detection) |
 | Kaggle Notebook | [kaggle.com/code/avishekbhowmik/surface-crack-detection-ss26-pr](https://www.kaggle.com/code/avishekbhowmik/surface-crack-detection-ss26-pr) |
-| Web Application | *(coming in Phase 3 — Hugging Face Spaces)* |
+| Web Application | [CrackSense - Live App](https://huggingface.co/spaces/Avishek71/cracksense) ||
 
 ---
 
