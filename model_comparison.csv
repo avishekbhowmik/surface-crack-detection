@@ -1,3 +1,0 @@
-Model,Best Val Accuracy,AUC,Training Time (s),Trainable Params
-Custom CNN,0.9836,0.9982,169.8,~93K
-MobileNetV2 (Transfer),0.9989,1.0000,197.0,~155K
